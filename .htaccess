@@ -1,0 +1,42 @@
+ErrorDocument 401 /400.html
+ErrorDocument 403 /400.html
+ErrorDocument 404 /400.html
+ErrorDocument 500 /500.html
+
+# BEGIN Cache-Control Headers
+<ifmodule mod_headers.c>
+ExpiresActive On
+ExpiresByType image/gif "access plus 1 months"
+ExpiresByType image/jpg "access plus 1 months"
+ExpiresByType image/jpeg "access plus 1 months"
+ExpiresByType image/png "access plus 1 months"
+ExpiresByType image/vnd.microsoft.icon "access plus 1 months"
+ExpiresByType image/x-icon "access plus 1 months"
+ExpiresByType image/ico "access plus 1 months"
+ExpiresByType application/javascript "now plus 1 months"
+ExpiresByType application/x-javascript "now plus 1 months"
+ExpiresByType text/javascript "now plus 1 months"
+ExpiresByType text/css "now plus 1 months"
+ExpiresDefault "access plus 1 days"
+</ifmodule>
+
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE image/vnd.microsoft.icon
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE image/jpeg
+AddOutputFilterByType DEFLATE image/gif
+AddOutputFilterByType DEFLATE image/png
+AddOutputFilterByType DEFLATE image/pjpeg
+
+<IfModule mod_security.c>
+SecRule REQUEST_URI ".*\.pdf$" phase:1,allow
+</IfModule>
