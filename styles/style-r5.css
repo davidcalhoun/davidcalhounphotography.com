@@ -225,6 +225,10 @@ table {
 		max-width: 150px;
 		margin: 0 0.75rem 0.25rem 0;
 	}
+
+	.feature-list figcaption a {
+		font-size: 2rem;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -286,10 +290,11 @@ table {
 
 	.main {
 		flex: 1;
-		margin-top: 4rem;
 	}
 
-	.feature {
+	.feature,
+	.about,
+	.contact {
 		margin-top: 4rem;
 	}
 
@@ -563,7 +568,7 @@ img[data-src].lazyloaded {
 }
 
 .main p {
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.03rem;
 	font-size: 0.9rem;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
@@ -574,6 +579,10 @@ img[data-src].lazyloaded {
 	line-height: 1.4rem;
 }
 
+.feature {
+	letter-spacing: 0.03rem;
+}
+
 .feature p {
 	margin-top: 1.5rem;
 	padding: 0 2rem;
@@ -581,14 +590,66 @@ img[data-src].lazyloaded {
 }
 
 .feature-photo-list {
-	font-size: 0;
+	font-size: 0; /* removes unnecessary spacing between li elements */
 	margin-top: 3rem;
 	width: 100%;
 }
 
-.feature-photo-list .inline {
-	display: inline-block;
+.feature-photo-list figcaption {
+	font-size: 1rem; /* restores font-size */
+	margin-top: 0.25rem;
 }
+
+.feature-photo-list > li {
+	margin-bottom: 1rem;
+}
+
+.feature-list.fadein {
+	opacity: 1;
+}
+
+.feature-list {
+	width: 100;
+	margin-top: 100vh;
+	opacity: 0;
+	-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	-ms-transition: opacity 2s ease-in-out;
+	-o-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
+    will-change: opacity, -webkit-transition;
+    will-change: opacity, -moz-transition;
+    will-change: opacity, -ms-transition;
+    will-change: opacity, -o-transition;
+    will-change: opacity, transition;
+}
+
+.feature-list figure {
+	position: relative; /* anchor for pos:abs */
+}
+
+.feature-list img {
+	opacity: 0.5;
+}
+
+.feature-list figcaption {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    letter-spacing: 0.5rem;
+    text-align: center;
+	font-family: "Marcellus SC";
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+
+.feature-list figcaption a {
+	color: inherit;
+	width: 100%;
+	text-decoration: none;
+	display: block;
+}
+
 
 .contact form {
 	max-width: 500px;

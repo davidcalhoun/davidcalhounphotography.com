@@ -52,11 +52,19 @@ if(!slideshow) return;
 (function(){
     var slider;
     var lastResize = 0;
+    var backgroundPhotoElt;
+    var backgroundPhotoHeight;
+    var firstBackgroundPhotoElt;
+    var featureListElt;
+    var fadedIn = false;
 
     function init() {
         document.body.classList.remove('nojs');
         lazyloadImages();
         setupFullScreen();
+
+        // TODO: handle timing better
+        window.setTimeout(updateDimensions.bind(this), 2000);
 
         window.addEventListener('resize', onResize);
 
@@ -67,13 +75,29 @@ if(!slideshow) return;
         slider.start();
     };
 
+    function updateDimensions() {
+    	backgroundPhotoElt = backgroundPhotoElt || document.querySelector('.background-photo');
+    	firstBackgroundPhotoElt = firstBackgroundPhotoElt || backgroundPhotoElt.firstElementChild;
+    	backgroundPhotoHeight = backgroundPhotoElt.offsetHeight;
+    	firstBackgroundPhotoHeight = firstBackgroundPhotoElt.offsetHeight;
+    	var offsetHeight = (firstBackgroundPhotoHeight < backgroundPhotoHeight) ? firstBackgroundPhotoHeight : backgroundPhotoHeight;
+
+    	featureListElt = featureListElt || document.querySelector('.feature-list');
+    	featureListElt.setAttribute('style', 'margin-top: ' + offsetHeight + 'px;');
+
+    	if (!fadedIn) {
+    		featureListElt.classList.add('fadein');
+    		fadedIn = true;
+    	}
+    }
+
     function onResize() {
         var now = Date.now();
         if (now - lastResize < 100) return;
 
-        // TODO still needed?
-
         lastResize = now;
+
+        updateDimensions();
     };
 
     function noop(){};
