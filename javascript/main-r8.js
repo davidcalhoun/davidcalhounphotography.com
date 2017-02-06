@@ -52,10 +52,8 @@ if(!slideshow) return;
 (function(){
     var slider;
     var lastResize = 0;
-    var backgroundPhotoElt;
-    var backgroundPhotoHeight;
-    var firstBackgroundPhotoElt;
     var featureListElt;
+    var kenBurnsPhoto;
     var fadedIn = false;
 
     function init() {
@@ -63,8 +61,7 @@ if(!slideshow) return;
         lazyloadImages();
         setupFullScreen();
 
-        // TODO: handle timing better
-        window.setTimeout(updateDimensions.bind(this), 2000);
+        updateDimensions();
 
         window.addEventListener('resize', onResize);
 
@@ -76,13 +73,25 @@ if(!slideshow) return;
     };
 
     function updateDimensions() {
-    	backgroundPhotoElt = backgroundPhotoElt || document.querySelector('.background-photo');
-    	firstBackgroundPhotoElt = firstBackgroundPhotoElt || backgroundPhotoElt.firstElementChild;
-    	backgroundPhotoHeight = backgroundPhotoElt.offsetHeight;
-    	firstBackgroundPhotoHeight = firstBackgroundPhotoElt.offsetHeight;
-    	var offsetHeight = (firstBackgroundPhotoHeight < backgroundPhotoHeight) ? firstBackgroundPhotoHeight : backgroundPhotoHeight;
+    	var winHeight = window.innerHeight;
+    	var winWidth = window.innerWidth;
 
+    	var isDesktop = winWidth > 992;
+
+    	kenBurnsPhoto = kenBurnsPhoto || document.querySelector('.background-photo img');
+    	var kenBurnsHeight = parseInt(window.getComputedStyle(kenBurnsPhoto).height);
     	featureListElt = featureListElt || document.querySelector('.feature-list');
+
+    	var offsetHeight;
+
+    	if (isDesktop) {
+    		offsetHeight = (winHeight > winWidth) ? parseInt(winWidth * 0.66666667) : winHeight;
+    	} else {
+    		offsetHeight = kenBurnsHeight;
+    	}
+
+    	if (!featureListElt) return;
+
     	featureListElt.setAttribute('style', 'margin-top: ' + offsetHeight + 'px;');
 
     	if (!fadedIn) {
@@ -135,6 +144,16 @@ if(!slideshow) return;
 
         });
     };
+
+    var onloadCalled = false;
+    function onLoad(e) {
+    	if(onloadCalled) return;
+
+    	if('IMG' === e.target.nodeName) {
+    		onloadCalled = true;
+			updateDimensions();
+    	}
+    }
 
     if(document.readyState === 'loading') {
         // still loading, so wait for doc interactive/complete

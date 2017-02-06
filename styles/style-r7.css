@@ -215,6 +215,7 @@ table {
 
 	.background-photo {
 		margin-top: 8rem;
+		min-height: 100vh;
 	}
 
 	.about {
@@ -300,6 +301,7 @@ table {
 
 	.background-photo {
 		margin-top: 0;
+		min-height: 100vh;
 	}
 
 	.about .portrait {
@@ -457,7 +459,6 @@ img[data-src].lazyloaded {
 #slideshow {
 	overflow: hidden;
 	width: 100vw;
-	height: 100vh;
 }
 
 /**
@@ -612,6 +613,7 @@ img[data-src].lazyloaded {
 	width: 100;
 	margin-top: 100vh;
 	opacity: 0;
+	background-color: black;
 	-webkit-transition: opacity 2s ease-in-out;
 	-moz-transition: opacity 2s ease-in-out;
 	-ms-transition: opacity 2s ease-in-out;
