@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://davidcalhounphotography.com/blog/a-visit-back-in-time-at-oak-alley-plantation-near-new-orleans-louisiana/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://davidcalhounphotography.com/blog/video-rundetaarn-walkway-hyperlapse-copenhagen-denmark/</loc>
     <lastmod>2017-07-09T20:22:03-07:00</lastmod>
   </url>
@@ -86,6 +91,12 @@
   </url>
   
   <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/big-trees/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://davidcalhounphotography.com/blog/tags/california/</loc>
     <lastmod>2017-06-18T17:32:03-07:00</lastmod>
     <priority>0</priority>
@@ -105,7 +116,7 @@
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/</loc>
-    <lastmod>2017-07-09T20:22:03-07:00</lastmod>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,6 +211,12 @@
   </url>
   
   <url>
+    <loc>https://davidcalhounphotography.com/blog/categories/louisiana/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://davidcalhounphotography.com/blog/tags/mount-hood/</loc>
     <lastmod>2017-05-21T22:59:08-07:00</lastmod>
     <priority>0</priority>
@@ -236,6 +253,30 @@
   </url>
   
   <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/oak/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/oak-alley/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/oak-trees/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/old-trees/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://davidcalhounphotography.com/blog/tags/oregon/</loc>
     <lastmod>2017-05-21T22:59:08-07:00</lastmod>
     <priority>0</priority>
@@ -254,6 +295,12 @@
   </url>
   
   <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/plantation/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://davidcalhounphotography.com/blog/tags/portland/</loc>
     <lastmod>2017-05-21T22:59:08-07:00</lastmod>
     <priority>0</priority>
@@ -261,7 +308,7 @@
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/post/</loc>
-    <lastmod>2017-07-09T20:22:03-07:00</lastmod>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -280,6 +327,12 @@
   <url>
     <loc>https://davidcalhounphotography.com/blog/tags/ski-area/</loc>
     <lastmod>2017-05-21T22:59:08-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/slavery/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -321,13 +374,19 @@
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/categories/travel-photography/</loc>
-    <lastmod>2017-07-09T20:22:03-07:00</lastmod>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/tags/usa/</loc>
     <lastmod>2017-06-18T17:32:03-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/categories/usa/</loc>
+    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
