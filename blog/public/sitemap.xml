@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://davidcalhounphotography.com/blog/video-s%C3%B8ren-kierkegaards-copenhagen/</loc>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://davidcalhounphotography.com/blog/a-visit-back-in-time-at-oak-alley-plantation-near-new-orleans-louisiana/</loc>
     <lastmod>2017-07-10T13:39:07-07:00</lastmod>
   </url>
@@ -110,25 +115,31 @@
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/tags/copenhagen/</loc>
-    <lastmod>2017-07-09T20:22:03-07:00</lastmod>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/</loc>
-    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/denmark/</loc>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/categories/denmark/</loc>
-    <lastmod>2017-07-09T20:22:03-07:00</lastmod>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/categories/europe/</loc>
-    <lastmod>2017-07-09T20:22:03-07:00</lastmod>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -183,6 +194,12 @@
   <url>
     <loc>https://davidcalhounphotography.com/blog/tags/jigokudani-monkey-park/</loc>
     <lastmod>2017-05-20T14:49:16-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/kierkegaard/</loc>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -289,6 +306,12 @@
   </url>
   
   <url>
+    <loc>https://davidcalhounphotography.com/blog/categories/philosophy/</loc>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://davidcalhounphotography.com/blog/categories/photography-philosophy/</loc>
     <lastmod>2017-06-18T17:32:03-07:00</lastmod>
     <priority>0</priority>
@@ -308,7 +331,7 @@
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/post/</loc>
-    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -339,6 +362,12 @@
   <url>
     <loc>https://davidcalhounphotography.com/blog/tags/snow/</loc>
     <lastmod>2017-05-21T22:59:08-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidcalhounphotography.com/blog/tags/soren-kierkegaard/</loc>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -374,7 +403,7 @@
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/categories/travel-photography/</loc>
-    <lastmod>2017-07-10T13:39:07-07:00</lastmod>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -392,7 +421,7 @@
   
   <url>
     <loc>https://davidcalhounphotography.com/blog/categories/video/</loc>
-    <lastmod>2017-07-09T20:22:03-07:00</lastmod>
+    <lastmod>2017-07-21T17:13:42-07:00</lastmod>
     <priority>0</priority>
   </url>
   

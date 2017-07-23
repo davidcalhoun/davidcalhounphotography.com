@@ -2,8 +2,9 @@
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ with .Params.images }}{{ range first 6 . }}
-<meta property="og:image" content="{{ . }}" />
+<meta property="og:image:width" content="{{ if .Params.image_widths }}{{ index .Params.image_widths 0 }}{{ else }}1280{{ end }}" />
+<meta property="og:image:height" content="{{ if .Params.image_heights }}{{ index .Params.image_heights 0 }}{{ else }}720{{ end }}" />
+{{ with .Params.images }}{{ range first 6 . }}<meta property="og:image" content="{{ . }}" />
 {{ end }}{{ end }}<!-- Optional Open Graph Markup --><meta property="og:updated_time" content="{{ .Date }}"/>
 {{ with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 {{ with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
