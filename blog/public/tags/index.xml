@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://davidcalhounphotography.com&#34;&gt;David Calhoun&lt;/a&gt; 2017</copyright>
-    <lastBuildDate>Sat, 20 May 2017 14:49:16 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 21 Aug 2017 16:57:42 -0700</lastBuildDate>
     
 	<atom:link href="https://davidcalhounphotography.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2017</title>
+      <link>https://davidcalhounphotography.com/blog/tags/2017/</link>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
+      
+      <guid>https://davidcalhounphotography.com/blog/tags/2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2017 Eclipse</title>
+      <link>https://davidcalhounphotography.com/blog/tags/2017-eclipse/</link>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
+      
+      <guid>https://davidcalhounphotography.com/blog/tags/2017-eclipse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aioi Bridge</title>
@@ -112,6 +130,15 @@
     </item>
     
     <item>
+      <title>Eclipse</title>
+      <link>https://davidcalhounphotography.com/blog/tags/eclipse/</link>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
+      
+      <guid>https://davidcalhounphotography.com/blog/tags/eclipse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fushimi Inari</title>
       <link>https://davidcalhounphotography.com/blog/tags/fushimi-inari/</link>
       <pubDate>Tue, 13 Jun 2017 09:14:53 -0700</pubDate>
@@ -139,9 +166,18 @@
     </item>
     
     <item>
+      <title>Great American Eclipse</title>
+      <link>https://davidcalhounphotography.com/blog/tags/great-american-eclipse/</link>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
+      
+      <guid>https://davidcalhounphotography.com/blog/tags/great-american-eclipse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hiking</title>
       <link>https://davidcalhounphotography.com/blog/tags/hiking/</link>
-      <pubDate>Sun, 23 Jul 2017 15:45:07 -0700</pubDate>
+      <pubDate>Tue, 01 Aug 2017 09:12:45 -0700</pubDate>
       
       <guid>https://davidcalhounphotography.com/blog/tags/hiking/</guid>
       <description></description>
@@ -180,6 +216,15 @@
       <pubDate>Sat, 20 May 2017 14:49:16 -0700</pubDate>
       
       <guid>https://davidcalhounphotography.com/blog/tags/jigokudani-monkey-park/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John Day</title>
+      <link>https://davidcalhounphotography.com/blog/tags/john-day/</link>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
+      
+      <guid>https://davidcalhounphotography.com/blog/tags/john-day/</guid>
       <description></description>
     </item>
     
@@ -294,7 +339,7 @@
     <item>
       <title>Oregon</title>
       <link>https://davidcalhounphotography.com/blog/tags/oregon/</link>
-      <pubDate>Sun, 21 May 2017 22:59:08 -0700</pubDate>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
       
       <guid>https://davidcalhounphotography.com/blog/tags/oregon/</guid>
       <description></description>
@@ -319,9 +364,18 @@
     </item>
     
     <item>
+      <title>Road Trip</title>
+      <link>https://davidcalhounphotography.com/blog/tags/road-trip/</link>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
+      
+      <guid>https://davidcalhounphotography.com/blog/tags/road-trip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>San Bernardino</title>
       <link>https://davidcalhounphotography.com/blog/tags/san-bernardino/</link>
-      <pubDate>Sun, 23 Jul 2017 15:45:07 -0700</pubDate>
+      <pubDate>Tue, 01 Aug 2017 09:12:45 -0700</pubDate>
       
       <guid>https://davidcalhounphotography.com/blog/tags/san-bernardino/</guid>
       <description></description>
@@ -382,6 +436,15 @@
     </item>
     
     <item>
+      <title>Solar Eclipse</title>
+      <link>https://davidcalhounphotography.com/blog/tags/solar-eclipse/</link>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
+      
+      <guid>https://davidcalhounphotography.com/blog/tags/solar-eclipse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Soren Kierkegaard</title>
       <link>https://davidcalhounphotography.com/blog/tags/soren-kierkegaard/</link>
       <pubDate>Fri, 21 Jul 2017 17:13:42 -0700</pubDate>
@@ -420,7 +483,7 @@
     <item>
       <title>Usa</title>
       <link>https://davidcalhounphotography.com/blog/tags/usa/</link>
-      <pubDate>Sun, 18 Jun 2017 17:32:03 -0700</pubDate>
+      <pubDate>Mon, 21 Aug 2017 16:57:42 -0700</pubDate>
       
       <guid>https://davidcalhounphotography.com/blog/tags/usa/</guid>
       <description></description>
