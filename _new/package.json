@@ -1,0 +1,73 @@
+{
+  "name": "davidcalhounphotography.com ",
+  "version": "1.0.0",
+  "description": "Personal photography website of David Calhoun",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r dist/* || true",
+    "build-dev": "npm run clean && webpack -d --mode development && npm run cp-static",
+    "build-prod": "npm run clean && webpack -p --mode production && npm run cp-static",
+    "build": "npm run build-prod",
+    "cp-static": "cp -r src/static/* dist",
+    "start": "webpack-dev-server --hot --mode development",
+    "dev": "npm start",
+    "test": "jest",
+    "bump": "! npm outdated && npm update && npm audit fix || echo 'Package up to date'"
+  },
+  "author": "David Calhoun",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@hot-loader/react-dom": "^16.13.0",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@testing-library/dom": "^6.16.0",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^9.5.0",
+    "autoprefixer": "^9.7.6",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.5.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.7.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.5.4",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.43.0",
+    "webpack-bundle-analyzer": "^3.7.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "@material-ui/lab": "^4.0.0-alpha.51",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "react-hover-slideshow": "^2.1.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy"
+    }
+  }
+}

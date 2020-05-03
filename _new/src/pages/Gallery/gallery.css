@@ -1,0 +1,23 @@
+.container {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.galleryItem {
+	padding: 0;
+	margin: 0;
+	align-self: center;
+	margin-bottom: 3rem;
+}
+
+.galleryPhoto img {
+	max-height: 100vh;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+}
+
+.heading {
+	text-align: center;
+}
