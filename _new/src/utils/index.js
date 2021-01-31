@@ -1,4 +1,5 @@
 export { default as useWindowResize } from './useWindowResize';
+export * from './markdownToText';
 
 export const capitalizeFirstLetter = str => `${str[0].toUpperCase()}${str.substr(1)}`;
 

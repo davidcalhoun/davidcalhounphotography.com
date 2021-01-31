@@ -1,17 +1,31 @@
-import React, { useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { HoverSlideshow, HoverSlideshowAnimated } from "react-hover-slideshow";
 import { Link } from "react-router-dom";
+import CircularProgress from "@material-ui/core/CircularProgress";
+import ReactDOM, { createPortal } from "react-dom";
 
-import { siteName, galleries } from "../../consts";
+import { siteName, galleries, siteUrl } from "../../consts";
 import { slugify } from "../../utils";
 import styles from "./root.css";
+
+const LoadingPreview = ({ progressPercent }) => {
+	return <CircularProgress variant="determinate" value={progressPercent} />;
+};
+
+const HeadMetaTags = () => {
+	return createPortal(
+		<Fragment>
+			<link rel="canonical" href={siteUrl} />
+		</Fragment>,
+		document.head
+	);
+};
 
 const GalleryPreview = ({ name, imageURLs, ...otherProps }) => {
 	return (
 		<Link
 			to={`/gallery/${slugify(name)}`}
-			replace
 			className={styles.galleryPreview}
 			{...otherProps}
 		>
@@ -19,8 +33,9 @@ const GalleryPreview = ({ name, imageURLs, ...otherProps }) => {
 				aria-label={name}
 				images={imageURLs}
 				width="400px"
-				height="300px"
+				height="266.6666px"
 				className={styles.galleryHoverSlideshow}
+				LoadingPlaceholder={LoadingPreview}
 			>
 				<h2 className={styles.galleryName}>{name}</h2>
 			</HoverSlideshowAnimated>
@@ -36,18 +51,19 @@ const Root = () => {
 
 	return (
 		<div>
-			<h1>Root</h1>
+			<HeadMetaTags />
+			<h1 className={styles.heading}>Photo Galleries</h1>
 
 			<div className={styles.galleriesContainer}>
-			{galleries.map(({ name, previews }) => {
-				return (
-					<GalleryPreview
-						key={name}
-						name={name}
-						imageURLs={previews}
-					/>
-				);
-			})}
+				{galleries.map(({ name, previews }) => {
+					return (
+						<GalleryPreview
+							key={name}
+							name={name}
+							imageURLs={previews}
+						/>
+					);
+				})}
 			</div>
 		</div>
 	);

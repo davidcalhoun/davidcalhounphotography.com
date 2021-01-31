@@ -3,7 +3,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	Link,
+	NavLink,
 	Redirect,
 	useRouteMatch,
 	useParams
@@ -22,25 +22,25 @@ function Header({ breakpoint, cartItems }) {
 
 	return (
 		<header className={styles.container}>
-			<Link to="/" replace className={styles.title}>
+			<NavLink to="/" className={styles.title}>
 				<h2>{ siteName }</h2>
-			</Link>
+			</NavLink>
 			<nav className={styles.nav}>
 				<ul>
 					<li>
-						<Link to="/" replace>
+						<NavLink to="/" exact>
 							Galleries
-						</Link>
+						</NavLink>
 					</li>
 					<li>
-						<Link to="/about" replace>
+						<NavLink to="/about" exact>
 							About
-						</Link>
+						</NavLink>
 					</li>
 					<li>
-						<Link to="/contact" replace>
+						<NavLink to="/contact" exact>
 							Contact
-						</Link>
+						</NavLink>
 					</li>
 				</ul>
 			</nav>

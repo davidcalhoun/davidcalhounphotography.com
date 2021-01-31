@@ -2,6 +2,7 @@
 	display: inline-flex;
 	justify-content: center;
 	position: relative; /* anchor for pos:abs */
+
 }
 
 .galleryName {
@@ -17,13 +18,21 @@
 	pointer-events: none;
 }
 
-.galleryHoverSlideshow {
+body .galleryHoverSlideshow {
 	display: flex;
 	justify-content: center;
 	flex: 1;
+	flex-direction: column;
+	align-items: center;
 }
 
 .galleriesContainer {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	overflow-x: hidden;
+}
+
+.heading {
+	text-align: center;
 }

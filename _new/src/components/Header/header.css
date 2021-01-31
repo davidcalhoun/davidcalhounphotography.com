@@ -1,4 +1,9 @@
 .container {
+	text-align: center;
+}
+
+.nav {
+	font-size: 1.3rem;
 }
 
 .nav ul {
@@ -12,19 +17,29 @@
 	padding: 0;
 	margin: 0;
 	display: inline-block;
+	padding: 0.25rem 0;
 }
 
 .nav li:not(:last-child) {
-	margin-right: 1rem;
+	margin-right: 0.1rem;
 }
 
 .title {
 	text-align: center;
-	font-size: 1.25rem;
+	font-size: 1.75rem;
+	display: inline-block;
 }
 
 .title h2 {
-	margin: 0.75rem 0 0.1rem;
+	margin: 1.5rem 0 0.1rem;
 	font-size: inherit;
 	letter-spacing: 0.1rem;
+}
+
+.nav a {
+	padding: 0.5rem 0.5rem;
+}
+
+.nav :global a.active {
+	text-decoration: underline;
 }

@@ -4,10 +4,6 @@
 		<meta charset="utf-8" />
 		<title><%= title %></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap"
-		/>
 		<link rel="icon" type="image/png" href="/favicon.ico" />
 
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -19,14 +15,53 @@
 			name="description"
 			content="Landscape and travel photography from David Calhoun."
 		/>
-		<link rel="canonical" href="https://www.davidcalhounphotography.com/" />
+		<link rel="preconnect" href="https://www.google-analytics.com" />
 
 		<style>
+			/* cyrillic */
+			@font-face {
+			  font-family: 'Poiret One';
+			  font-style: normal;
+			  font-weight: 400;
+			  font-display: swap;
+			  src: local('Poiret One'), local('PoiretOne-Regular'), url(/fonts/UqyVK80NJXN4zfRgbdfbo5pcV-UyZKAbcw.woff2) format('woff2');
+			  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+			}
+			/* latin-ext */
+			@font-face {
+			  font-family: 'Poiret One';
+			  font-style: normal;
+			  font-weight: 400;
+			  font-display: swap;
+			  src: local('Poiret One'), local('PoiretOne-Regular'), url(/fonts/UqyVK80NJXN4zfRgbdfbo5BcV-UyZKAbcw.woff2) format('woff2');
+			  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+			}
+			/* latin */
+			@font-face {
+			  font-family: 'Poiret One';
+			  font-style: normal;
+			  font-weight: 400;
+			  font-display: swap;
+			  src: local('Poiret One'), local('PoiretOne-Regular'), url(/fonts/UqyVK80NJXN4zfRgbdfbo55cV-UyZKA.woff2) format('woff2');
+			  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+			}
+
+			html {
+				background-color: #1c1c1c;
+			}
+
 			.loading .loading-indicator {
 				display: block;
 				position: absolute;
 				left: 49vw;
 				top: 49vh;
+				opacity: 0;
+				animation-name: fadeIn, rotateSquareToCircle;
+				animation-duration: 1.5s, 3s;
+				animation-timing-function: ease, ease;
+				animation-iteration-count: 1, infinite;
+				animation-delay: 1s;
+				animation-fill-mode: forwards;
 			}
 
 			.loading-indicator {
@@ -36,8 +71,7 @@
 			.sbl-square-to-circle {
 				height: 48px;
 				width: 48px;
-				color: #5a5a5a;
-				animation: rotateSquareToCircle 3s ease infinite;
+				color: white;
 			}
 			.sbl-square-to-circle div {
 				height: 0;
@@ -61,6 +95,15 @@
 			.sbl-square-to-circle div:nth-child(3) {
 				right: 0;
 				animation: moveLeft 2s ease infinite;
+			}
+
+			@keyframes fadeIn {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
 			}
 
 			@keyframes moveLeft {
