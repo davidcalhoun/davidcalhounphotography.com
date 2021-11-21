@@ -151,7 +151,7 @@ const HeadMetaTags = (props) => {
 
 const Gallery = () => {
 	const { galleryName } = useParams();
-console.log(11, 'hello')
+	console.log(11, 'hello')
 	// 	const validSlugs = galleries.map(({ slug }) => slug);
 	//
 	// 	if (!validSlugs.includes(galleryName)) {

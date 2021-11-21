@@ -23,7 +23,7 @@ function Header({ breakpoint, cartItems }) {
 	return (
 		<header className={styles.container}>
 			<NavLink to="/" className={styles.title}>
-				<h2>{ siteName }</h2>
+				<h2>{siteName}</h2>
 			</NavLink>
 			<nav className={styles.nav}>
 				<ul>

@@ -1,0 +1,38 @@
+.galleryPreview {
+	display: inline-flex;
+	justify-content: center;
+	position: relative; /* anchor for pos:abs */
+
+}
+
+.galleryName {
+	top: 37%;
+	position: absolute;
+	color: white;
+	z-index: 999;
+	font-size: 2rem;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-weight: bold;
+	letter-spacing: 0.09rem;
+	margin: 0;
+	pointer-events: none;
+}
+
+body .galleryHoverSlideshow {
+	display: flex;
+	justify-content: center;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+}
+
+.galleriesContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow-x: hidden;
+}
+
+.heading {
+	text-align: center;
+}
