@@ -7,14 +7,14 @@ import { Footer, Header } from '../components';
 import styles from '../styles/Home.module.css';
 
 const japanImageURLs = [
-    'https://www.davidcalhounphotography.com/photos/japan-previews/03.jpg',
-    'https://www.davidcalhounphotography.com/photos/japan-previews/02.jpg',
-    'https://www.davidcalhounphotography.com/photos/japan-previews/01.jpg',
-    'https://www.davidcalhounphotography.com/photos/japan-previews/04.jpg',
-    'https://www.davidcalhounphotography.com/photos/japan-previews/05.jpg',
-    'https://www.davidcalhounphotography.com/photos/japan-previews/06.jpg',
-    'https://www.davidcalhounphotography.com/photos/japan-previews/07.jpg',
-    'https://www.davidcalhounphotography.com/photos/japan-previews/08.jpg'
+    '/japan-previews/03.jpg',
+    '/japan-previews/02.jpg',
+    '/japan-previews/01.jpg',
+    '/japan-previews/04.jpg',
+    '/japan-previews/05.jpg',
+    '/japan-previews/06.jpg',
+    '/japan-previews/07.jpg',
+    '/japan-previews/08.jpg'
 ];
 
 export default function Home() {
