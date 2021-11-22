@@ -1,0 +1,51 @@
+.container {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.imageContainer {
+}
+
+.image {
+    max-height: 98vh;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.captionContainer {
+    padding: 0;
+    margin: 0.5rem 0.25rem 0;
+    letter-spacing: 0.04rem;
+    max-width: 75ch;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.captionTitle {
+    margin-top: 2rem;
+}
+
+.captionDescription {
+}
+
+.captionDescription a {
+    font-weight: 600;
+}
+
+.captionDescription blockquote {
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+.captionDescription blockquote p {
+    margin: 0.25rem 0 0;
+}

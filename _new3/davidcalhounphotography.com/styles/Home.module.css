@@ -1,0 +1,47 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: calc(100vh - 84px); /* subtracts footer height */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleries {
+    margin: 2rem 0 7rem;
+    text-align: center;
+}
+
+.galleriesThumbs {
+    padding: 0;
+}
+
+.galleriesThumbs li {
+    list-style: none;
+}
+
+body .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* TODO: workaround for react-hover-slideshow bug */
+    user-select: none;
+    -webkit-text-stroke: 1px black;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: Helvetica;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: rgba(244, 244, 244, 0.2) 0px 0px 0px 0px;
+}
+
+body .gallery:hover,
+body .gallery:active,
+body .gallery:focus {
+    box-shadow: rgba(181, 181, 181, 0.2) 0px 0px 8px 1px;
+}

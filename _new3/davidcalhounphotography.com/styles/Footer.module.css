@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #4e4e4e;
+    color: var(--color-main-subdued);
+    justify-content: space-evenly;
+}
