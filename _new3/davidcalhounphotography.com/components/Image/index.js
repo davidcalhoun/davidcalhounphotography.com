@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown';
+import remarkExternalLinks from 'remark-external-links'
 
 import { markdownToPlainText } from '../../utils';
 import styles from '../../styles/Image.module.css';
@@ -22,7 +23,7 @@ const imageSizes = [
 
 /** SEO-rich responsive image markup. */
 const Image = (props) => {
-    const { path, name, alt, caption, width, height, genre, keywords, children } = props;
+    const { path, name, alt, caption, width, height, genre, keywords, loading, children } = props;
 
     return (
         <figure
@@ -62,7 +63,7 @@ const Image = (props) => {
                 <img
                     itemProp="url"
                     src={`${path}-lg-resize.jpeg`}
-                    loading="lazy"
+                    loading={ loading || "lazy" }
                     alt={alt}
                     width={width}
                     height={height}
@@ -73,7 +74,7 @@ const Image = (props) => {
                 <ReactMarkdown className={styles.captionTitle}>
                     {name}
                 </ReactMarkdown>
-                <ReactMarkdown className={styles.captionDescription} linkTarget="_blank">
+                <ReactMarkdown className={styles.captionDescription} linkTarget="_blank" remarkPlugins={[remarkExternalLinks]}>
                     {caption}
                 </ReactMarkdown>
             </figcaption>

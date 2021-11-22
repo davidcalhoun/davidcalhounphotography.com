@@ -20,6 +20,7 @@ export default function Gallery() {
 
                 <section className={styles.photos}>
                     <Image
+                        loading="eager"
                         path={'/japan/5D__9044-hamarikyu-gardens-tokyo-japan-apr-2015'}
                         name="Framed Garden View"
                         alt="Looking out from a covered pavillion at blossoming plum and cherry trees in a Japanese garden."
@@ -39,6 +40,7 @@ good spot for photographers.  Though this means my photo is one of many with thi
                         keywords="tokyo, japan, spring, hamarikyu gardens, cherry blossoms, plum blossoms, 浜離宮, 東京, 日本"
                     />
                     <Image
+                        loading="eager"
                         path={'/japan/5D__0963-kiyomizudera-lightup-kyoto-japan-apr-2016'}
                         name="Night Glow at Kiyomizudera"
                         alt="Night view of a large wooden temple with a tall wooden platform in front.  Trees with green foliage surround the structure, illuminated by lights."
