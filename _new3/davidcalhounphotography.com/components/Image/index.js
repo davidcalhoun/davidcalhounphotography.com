@@ -70,8 +70,12 @@ const Image = (props) => {
                 />
             </picture>
             <figcaption className={styles.captionContainer}>
-                <ReactMarkdown children={name} className={styles.captionTitle} />
-                <ReactMarkdown children={caption} className={styles.captionDescription} linkTarget="_blank" />
+                <ReactMarkdown className={styles.captionTitle}>
+                    {name}
+                </ReactMarkdown>
+                <ReactMarkdown className={styles.captionDescription} linkTarget="_blank">
+                    {caption}
+                </ReactMarkdown>
             </figcaption>
         </figure>
     );
