@@ -146,7 +146,7 @@ I took a few photos - before retreating back into my warm room.
                     />
                     <Image
                         path={'/japan/IMG_5061-aoi-matsuri-kyoto-japan-may-2013'}
-                        name="Aoi Matsuri"
+                        name="Traditional Japanese clothes at Aoi Matsuri"
                         alt="A man wearing traditional Japanese clothes.  In the background out of focus is a parade procession of people in traditional styles, some mounted on horseback."
                         caption={`It's a joy to watch a traditional parade in Kyoto, even if it's hard to understand
 what's going on.  This particular festival is great because of the large amount of space, making it not as claustrophobic
@@ -168,7 +168,7 @@ in the crowd with a very large lens.
                         path={'/japan/5D__2135-shirakawa-doorway-gifu-japan-may-2016'}
                         name=""
                         alt="."
-                        caption={`Gasshō-zukuri (合掌造) minka home (民家).  The heat out here was still bearable,
+                        caption={`Gasshō-zukuri (合掌造) minka home (民家).  At this time of year the heat was still bearable,
 but things were starting to warm up for sure.  I was pretty delighted to find the great symmetry and the asymmetry
 in this shot.  Just imagine waking up and opening up your front door to this scene!
 
