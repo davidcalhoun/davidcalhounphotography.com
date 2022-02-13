@@ -1,5 +1,6 @@
 .container {
     padding: 0 2rem;
+    overflow: hidden;
 }
 
 .main {
@@ -12,7 +13,7 @@
 }
 
 .galleries {
-    margin: 2rem 0 7rem;
+    margin: 0 0 7rem 0;
     text-align: center;
 }
 

@@ -6,9 +6,6 @@
     text-align: center;
 }
 
-.imageContainer {
-}
-
 .image {
     max-height: 98vh;
     max-width: 100%;
@@ -35,6 +32,7 @@
 }
 
 .captionDescription {
+    letter-spacing: -0.02rem;
 }
 
 .captionDescription a {

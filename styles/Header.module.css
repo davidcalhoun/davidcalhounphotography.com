@@ -1,6 +1,6 @@
 .container {
     text-align: center;
-    padding: 4rem 0;
+    padding: var(--vertical-spacer) 0;
 }
 
 .title a {
@@ -17,11 +17,12 @@
 .title {
     margin: 0;
     line-height: 1.15;
-    font-size: 4rem;
+    font-size: var(--title-font-size);
     font-weight: 100;
 }
 
 .subtitle {
     font-weight: 100;
     margin: 0;
+    font-size: calc(var(--title-font-size) / 2);
 }

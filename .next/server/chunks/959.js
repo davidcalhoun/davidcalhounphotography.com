@@ -32,7 +32,6 @@ module.exports = {
 // Exports
 module.exports = {
 	"container": "Image_container__ehhmw",
-	"imageContainer": "Image_imageContainer__pdeJB",
 	"image": "Image_image__Gc0kA",
 	"captionContainer": "Image_captionContainer__CVsRM",
 	"captionTitle": "Image_captionTitle__JyHOU",
@@ -60,7 +59,7 @@ module.exports = {
         className: (_styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default().container),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                children: "\xa9 David Calhoun Photography"
+                children: "\xa9davidcalhounphotography.com"
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                 children: [
@@ -96,7 +95,7 @@ module.exports = {
 
 
 
-const Header = ()=>{
+const Header = ({ isMainIndex =true  })=>{
     return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("hgroup", {
         className: (_styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default().container),
         children: [
@@ -104,13 +103,19 @@ const Header = ()=>{
                 href: "/",
                 passHref: true,
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                    children: isMainIndex ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                        className: (_styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default().title),
+                        children: "David Calhoun"
+                    }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                         className: (_styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default().title),
                         children: "David Calhoun"
                     })
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+            isMainIndex ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                className: (_styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default().subtitle),
+                children: "Landscape and travel photography"
+            }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                 className: (_styles_Header_module_css__WEBPACK_IMPORTED_MODULE_2___default().subtitle),
                 children: "Landscape and travel photography"
             })

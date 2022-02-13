@@ -1,7 +1,10 @@
 :root {
+    --footer-font-size: 0.8rem;
+    --title-font-size: 2rem;
     --color-main: #dbdbdb;
     --color-main-subdued: #929292;
     --color-bg: #181818;
+    --vertical-spacer: 2rem;
 }
 
 html,
@@ -25,4 +28,13 @@ a {
 
 * {
     box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 576px) {
+    :root {
+        --footer-font-size: 1rem;
+        --title-font-size: 3rem;
+        --vertical-spacer: 4rem;
+    }
 }

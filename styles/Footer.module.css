@@ -1,8 +1,21 @@
 .container {
+    font-size: var(--footer-font-size);
     display: flex;
     flex: 1;
+    flex-direction: column;
     padding: 2rem 0;
     border-top: 1px solid #4e4e4e;
     color: var(--color-main-subdued);
     justify-content: space-evenly;
+    line-height: 1.2rem;
+}
+
+.container span:not(:last-of-type) {
+    margin-right: 0.5rem;
+}
+
+@media only screen and (min-width: 576px) {
+    .container {
+        flex-direction: row;
+    }
 }

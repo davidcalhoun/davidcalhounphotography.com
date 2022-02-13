@@ -13,10 +13,8 @@ export default function Gallery() {
             </Head>
 
             <main className={styles.main}>
-                <Header />
-                <hgroup>
-                    <h1 className={styles.title}>Japan Gallery</h1>
-                </hgroup>
+                <Header isMainIndex={false} />
+                <h1 className={styles.title}>Japan Gallery</h1>
 
                 <section className={styles.photos}>
                     <Image
