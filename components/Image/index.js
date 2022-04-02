@@ -48,27 +48,29 @@ const Image = (props) => {
                 {keywords && <meta itemProp="keywords" content={keywords} />}
                 {genre && <meta itemProp="genre" content={genre} />}
                 <meta itemProp="isFamilyFriendly" content="true" />
-                {imageMimeTypes.map((mime) => {
-                    return imageSizes.map(({ size, media }) => {
-                        return (
-                            <source
-                                key={`${mime}${size}`}
-                                type={`image/${mime}`}
-                                media={media}
-                                srcSet={`${path}-${size}-resize.${mime}`}
-                            />
-                        );
-                    });
-                })}
-                <img
-                    itemProp="url"
-                    src={`${path}-lg-resize.jpeg`}
-                    loading={ loading || "lazy" }
-                    alt={alt}
-                    width={width}
-                    height={height}
-                    className={styles.image}
-                />
+                <a href={`${path}-lg-resize.jpeg`}>
+                    {imageMimeTypes.map((mime) => {
+                        return imageSizes.map(({ size, media }) => {
+                            return (
+                                <source
+                                    key={`${mime}${size}`}
+                                    type={`image/${mime}`}
+                                    media={media}
+                                    srcSet={`${path}-${size}-resize.${mime}`}
+                                />
+                            );
+                        });
+                    })}
+                    <img
+                        itemProp="url"
+                        src={`${path}-lg-resize.jpeg`}
+                        loading={ loading || "lazy" }
+                        alt={alt}
+                        width={width}
+                        height={height}
+                        className={styles.image}
+                    />
+                </a>
             </picture>
             <figcaption className={styles.captionContainer}>
                 <ReactMarkdown className={styles.captionTitle}>
