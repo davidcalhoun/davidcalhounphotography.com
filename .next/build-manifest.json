@@ -1,39 +1,52 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js",
-    "static/development/_middlewareManifest.js"
+    "static/gpe4oAmExSojKGBWkaeGa/_buildManifest.js",
+    "static/gpe4oAmExSojKGBWkaeGa/_ssgManifest.js",
+    "static/gpe4oAmExSojKGBWkaeGa/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-5d375b4bfedf1a40.js",
+      "static/chunks/715-2936933af441db98.js",
+      "static/chunks/686-7a5030f6ced4e761.js",
+      "static/css/b0b005d1eca3e912.css",
+      "static/chunks/pages/index-1f944fea85a15015.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-5d375b4bfedf1a40.js",
+      "static/css/bb1fc50d7ffb5fa4.css",
+      "static/chunks/pages/_app-a1b8400e044dd9f9.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-5d375b4bfedf1a40.js",
+      "static/chunks/pages/_error-1995526792b513b2.js"
+    ],
+    "/gallery/eastern-sierra": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-5d375b4bfedf1a40.js",
+      "static/chunks/715-2936933af441db98.js",
+      "static/css/59247bc85eca5b63.css",
+      "static/chunks/pages/gallery/eastern-sierra-a2d8e6306f07ba56.js"
     ],
     "/gallery/japan": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/gallery/japan.js"
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-5d375b4bfedf1a40.js",
+      "static/chunks/715-2936933af441db98.js",
+      "static/css/59247bc85eca5b63.css",
+      "static/chunks/pages/gallery/japan-1366c28b201b1b17.js"
     ]
   },
   "ampFirstPages": []

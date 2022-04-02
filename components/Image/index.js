@@ -23,7 +23,7 @@ const imageSizes = [
 
 /** SEO-rich responsive image markup. */
 const Image = (props) => {
-    const { path, name, alt, caption, width, height, genre, keywords, loading, children } = props;
+    const { path, name, alt, caption, width, height, genre, keywords, loading, children, decoding } = props;
 
     return (
         <figure
@@ -65,6 +65,7 @@ const Image = (props) => {
                         itemProp="url"
                         src={`${path}-lg-resize.jpeg`}
                         loading={ loading || "lazy" }
+                        decoding={ decoding || "async" }
                         alt={alt}
                         width={width}
                         height={height}
