@@ -13,16 +13,36 @@
 }
 
 .galleries {
-    margin: 0 0 7rem 0;
+    margin: 0 0 1rem 0;
     text-align: center;
 }
 
 .galleriesThumbs {
     padding: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row;
 }
 
 .galleriesThumbs li {
+    display: flex;
+    flex: 1;
+    justify-content: center;
     list-style: none;
+    margin: 1rem;
+}
+
+.galleriesThumbs li:not(:first-child) {
+
+}
+
+@media only screen and (min-width: 576px) {
+    .galleriesThumbs li:not(:first-child) {
+
+    }
 }
 
 body .gallery {

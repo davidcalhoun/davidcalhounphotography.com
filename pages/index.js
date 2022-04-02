@@ -16,6 +16,13 @@ const japanImageURLs = [
     '/japan-previews/08.jpg'
 ];
 
+const easternSierraURLs = [
+    '/eastern-sierra-california-previews/01.jpg',
+    '/eastern-sierra-california-previews/02.jpg',
+    '/eastern-sierra-california-previews/03.jpg',
+    '/eastern-sierra-california-previews/04.jpg'
+]
+
 export default function Home() {
     return (
         <div className={styles.container}>
@@ -38,10 +45,25 @@ export default function Home() {
                                         aria-label={'Japan Gallery'}
                                         images={japanImageURLs}
                                         width="400px"
-                                        height="266.6666px"
+                                        height="267px"
                                         className={styles.gallery}
                                     >
                                         <span>Japan</span>
+                                    </HoverSlideshowAnimated>
+                                </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/gallery/eastern-sierra" passHref>
+                                <a className={styles.galleryName} aria-label="Eastern Sierra Gallery">
+                                    <HoverSlideshowAnimated
+                                        aria-label={'Eastern Sierra Gallery'}
+                                        images={easternSierraURLs}
+                                        width="400px"
+                                        height="267px"
+                                        className={styles.gallery}
+                                    >
+                                        <span>Eastern Sierra</span>
                                     </HoverSlideshowAnimated>
                                 </a>
                             </Link>
