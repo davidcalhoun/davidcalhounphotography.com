@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///Users/davidcalhoun/dev/davidcalhounphotography.com/pages/_app.js"],"sourcesContent":["import { useEffect } from 'react';\nimport ReactGA from 'react-ga';\nimport '../styles/globals.css';\n\nfunction CustomApp({ Component, pageProps }) {\n  useEffect(() => {\n    ReactGA.initialize('UA-83942647-1');\n    ReactGA.pageview(window.location.pathname + window.location.search);\n  }, [pageProps])\n\n  return <Component {...pageProps} />\n}\n\nexport default CustomApp\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;;AAGA,SAAS,UAAU,EAAE,SAAS,EAAE,SAAS,EAAE;IACzC,IAAA,gHAAS,EAAC;QACR,4KAAO,CAAC,UAAU,CAAC;QACnB,4KAAO,CAAC,QAAQ,CAAC,OAAO,QAAQ,CAAC,QAAQ,GAAG,OAAO,QAAQ,CAAC,MAAM;IACpE,GAAG;QAAC;KAAU;IAEd,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC;uCAEe"}}]
+}

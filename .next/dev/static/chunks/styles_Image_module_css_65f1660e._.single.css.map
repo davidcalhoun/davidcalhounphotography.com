@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Image.module.css"],"sourcesContent":[".container {\n    padding: 0;\n    margin: 0;\n    align-self: center;\n    margin-bottom: 6rem;\n    text-align: center;\n}\n\n.image {\n    max-height: 98vh;\n    max-width: 100%;\n    height: auto;\n    width: auto;\n    border: 2px solid #fff;\n    box-sizing: border-box;\n    display: inline-block;\n}\n\n.captionContainer {\n    padding: 0;\n    margin: 0.5rem 0.25rem 0;\n    letter-spacing: 0.04rem;\n    max-width: 75ch;\n    line-height: 1.5rem;\n    width: 100%;\n    text-align: left;\n    margin: 0 auto;\n}\n\n.captionTitle {\n    margin-top: 2rem;\n}\n\n.captionDescription {\n    letter-spacing: -0.02rem;\n}\n\n.captionDescription a {\n    font-weight: 600;\n}\n\n.captionDescription blockquote {\n    margin-left: 1rem;\n    font-style: italic;\n}\n\n.captionDescription blockquote p {\n    margin: 0.25rem 0 0;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAQA;;;;;;;;;;AAUA;;;;;;;;;;AAWA;;;;AAIA;;;;AAIA;;;;AAIA;;;;;AAKA"}}]
+}

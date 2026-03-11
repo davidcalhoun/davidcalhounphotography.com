@@ -1,0 +1,35 @@
+[00:00:00.384] Server  LOG     ✓ Ready in 257ms
+[00:00:03.206] Server  ERROR   Warning: HoverSlideshowAnimated: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.
+    at HoverSlideshowAnimated (/Users/davidcalhoun/dev/davidcalhounphotography.com/node_modules/react-hover-slideshow/dist/react-hover-slideshow.cjs.js:498:5)
+    at a
+    at LinkComponent (/Users/davidcalhoun/dev/davidcalhounphotography.com/node_modules/next/src/client/link.tsx:300:13)
+    at li
+    at ul
+    at div
+    at main
+    at div
+    at Home
+    at CustomApp (/Users/davidcalhoun/dev/davidcalhounphotography.com/pages/_app.js:5:22)
+    at StyleRegistry (/Users/davidcalhoun/dev/davidcalhounphotography.com/node_modules/styled-jsx/dist/index/index.js:449:36)
+    at PathnameContextProviderAdapter (webpack://next/src/shared/lib/router/adapters.tsx:70:3)
+    at AppContainer (webpack://next/src/server/render.tsx:737:27)
+    at AppContainerWithIsomorphicFiberStructure (webpack://next/src/server/render.tsx:785:11)
+    at div
+    at Body (webpack://next/src/server/render.tsx:1254:19)
+[00:00:03.453] Browser ERROR   Warning: %s: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.%s HoverSlideshowAnimated 
+HoverSlideshowAnimated@http://localhost:3000/_next/static/chunks/node_modules_bdd35391._.js:3421:87
+a
+LinkComponent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_881bc7f7._.js:4376:266
+li
+ul
+div
+main
+div
+Home
+CustomApp@http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:480:19
+PathnameContextProviderAdapter@http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5355:40
+PagesDevOverlayErrorBoundary@http://localhost:3000/_next/static/chunks/node_modules_next_dist_41ce5ee3._.js:1124:9
+PagesDevOverlayBridge@http://localhost:3000/_next/static/chunks/node_modules_next_dist_41ce5ee3._.js:1901:31
+Container@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1
+AppContainer@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:22
+Root@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3393:14
