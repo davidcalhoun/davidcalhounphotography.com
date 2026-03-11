@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///Users/davidcalhoun/dev/davidcalhounphotography.com/pages/_document.js"],"sourcesContent":["import Document, { Html, Head, Main, NextScript } from 'next/document'\n\nclass MyDocument extends Document {\n  static async getInitialProps(ctx) {\n    const initialProps = await Document.getInitialProps(ctx)\n    return { ...initialProps }\n  }\n\n  render() {\n    return (\n      <Html lang=\"en\">\n        <Head/>\n        <body>\n          <Main />\n          <NextScript />\n        </body>\n      </Html>\n    )\n  }\n}\n\nexport default MyDocument\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,mBAAmB,oIAAQ;IAC/B,aAAa,gBAAgB,GAAG,EAAE;QAChC,MAAM,eAAe,MAAM,oIAAQ,CAAC,eAAe,CAAC;QACpD,OAAO;YAAE,GAAG,YAAY;QAAC;IAC3B;IAEA,SAAS;QACP,qBACE,qKAAC,iIAAI;YAAC,MAAK;;8BACT,qKAAC,iIAAI;;;;;8BACL,qKAAC;;sCACC,qKAAC,iIAAI;;;;;sCACL,qKAAC,uIAAU;;;;;;;;;;;;;;;;;IAInB;AACF;uCAEe"}}]
+}

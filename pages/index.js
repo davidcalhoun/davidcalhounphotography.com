@@ -31,7 +31,6 @@ export default function Home() {
                 <meta name="description" content="Portfolio of landscape and travel photography." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
             <main className={styles.main}>
                 <Header />
 
@@ -39,39 +38,44 @@ export default function Home() {
                     <h2>Galleries</h2>
                     <ul className={styles.galleriesThumbs}>
                         <li>
-                            <Link href="/gallery/japan" passHref>
-                                <a className={styles.galleryName} aria-label="Japan Gallery">
-                                    <HoverSlideshowAnimated
-                                        aria-label={'Japan Gallery'}
-                                        images={japanImageURLs}
-                                        width="400px"
-                                        height="267px"
-                                        className={styles.gallery}
-                                    >
-                                        <span>Japan</span>
-                                    </HoverSlideshowAnimated>
-                                </a>
+                            <Link
+                                href="/gallery/japan"
+                                className={styles.galleryName}
+                                aria-label="Japan Gallery">
+
+                                <HoverSlideshowAnimated
+                                    aria-label={'Japan Gallery'}
+                                    images={japanImageURLs}
+                                    width="400px"
+                                    height="267px"
+                                    className={styles.gallery}
+                                >
+                                    <span>Japan</span>
+                                </HoverSlideshowAnimated>
+
                             </Link>
                         </li>
                         <li>
-                            <Link href="/gallery/eastern-sierra" passHref>
-                                <a className={styles.galleryName} aria-label="Eastern Sierra Gallery">
-                                    <HoverSlideshowAnimated
-                                        aria-label={'Eastern Sierra Gallery'}
-                                        images={easternSierraURLs}
-                                        width="400px"
-                                        height="267px"
-                                        className={styles.gallery}
-                                    >
-                                        <span>Eastern Sierra</span>
-                                    </HoverSlideshowAnimated>
-                                </a>
+                            <Link
+                                href="/gallery/eastern-sierra"
+                                className={styles.galleryName}
+                                aria-label="Eastern Sierra Gallery">
+
+                                <HoverSlideshowAnimated
+                                    aria-label={'Eastern Sierra Gallery'}
+                                    images={easternSierraURLs}
+                                    width="400px"
+                                    height="267px"
+                                    className={styles.gallery}
+                                >
+                                    <span>Eastern Sierra</span>
+                                </HoverSlideshowAnimated>
+
                             </Link>
                         </li>
                     </ul>
                 </div>
             </main>
-
             <Footer />
         </div>
     );

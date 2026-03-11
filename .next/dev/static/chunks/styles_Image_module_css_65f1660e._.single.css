@@ -1,0 +1,50 @@
+/* [project]/styles/Image.module.css [client] (css) */
+.Image-module__h7yYiG__container {
+  text-align: center;
+  align-self: center;
+  margin: 0 0 6rem;
+  padding: 0;
+}
+
+.Image-module__h7yYiG__image {
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 98vh;
+  display: inline-block;
+}
+
+.Image-module__h7yYiG__captionContainer {
+  letter-spacing: .04rem;
+  text-align: left;
+  width: 100%;
+  max-width: 75ch;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+.Image-module__h7yYiG__captionTitle {
+  margin-top: 2rem;
+}
+
+.Image-module__h7yYiG__captionDescription {
+  letter-spacing: -.02rem;
+}
+
+.Image-module__h7yYiG__captionDescription a {
+  font-weight: 600;
+}
+
+.Image-module__h7yYiG__captionDescription blockquote {
+  margin-left: 1rem;
+  font-style: italic;
+}
+
+.Image-module__h7yYiG__captionDescription blockquote p {
+  margin: .25rem 0 0;
+}
+
+/*# sourceMappingURL=styles_Image_module_css_65f1660e._.single.css.map*/

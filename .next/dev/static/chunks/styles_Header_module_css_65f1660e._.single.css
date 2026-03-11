@@ -1,0 +1,29 @@
+/* [project]/styles/Header.module.css [client] (css) */
+.Header-module__vcZAwq__container {
+  text-align: center;
+  padding: var(--vertical-spacer) 0;
+}
+
+.Header-module__vcZAwq__title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.Header-module__vcZAwq__title a:hover, .Header-module__vcZAwq__title a:focus, .Header-module__vcZAwq__title a:active {
+  text-decoration: underline;
+}
+
+.Header-module__vcZAwq__title {
+  line-height: 1.15;
+  font-size: var(--title-font-size);
+  margin: 0;
+  font-weight: 100;
+}
+
+.Header-module__vcZAwq__subtitle {
+  font-weight: 100;
+  font-size: calc(var(--title-font-size) / 2);
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles_Header_module_css_65f1660e._.single.css.map*/

@@ -1,9 +1,9 @@
 {
+  "/": "pages/index.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/gallery/eastern-sierra": "pages/gallery/eastern-sierra.html",
   "/gallery/japan": "pages/gallery/japan.html",
-  "/": "pages/index.html",
-  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }

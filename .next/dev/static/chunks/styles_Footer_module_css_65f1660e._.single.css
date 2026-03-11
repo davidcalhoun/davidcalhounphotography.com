@@ -1,0 +1,24 @@
+/* [project]/styles/Footer.module.css [client] (css) */
+.Footer-module__bU2TmW__container {
+  font-size: var(--footer-font-size);
+  color: var(--color-main-subdued);
+  border-top: 1px solid #4e4e4e;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  line-height: 1.2rem;
+  display: flex;
+}
+
+.Footer-module__bU2TmW__container span:not(:last-of-type) {
+  margin-right: .5rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .Footer-module__bU2TmW__container {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=styles_Footer_module_css_65f1660e._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Header.module.css"],"sourcesContent":[".container {\n    text-align: center;\n    padding: var(--vertical-spacer) 0;\n}\n\n.title a {\n    color: #0070f3;\n    text-decoration: none;\n}\n\n.title a:hover,\n.title a:focus,\n.title a:active {\n    text-decoration: underline;\n}\n\n.title {\n    margin: 0;\n    line-height: 1.15;\n    font-size: var(--title-font-size);\n    font-weight: 100;\n}\n\n.subtitle {\n    font-weight: 100;\n    margin: 0;\n    font-size: calc(var(--title-font-size) / 2);\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;AAKA;;;;AAMA;;;;;;;AAOA"}}]
+}

@@ -1,0 +1,3 @@
+module.exports=[8171,(a,b,c)=>{b.exports=a.x("react/jsx-runtime",()=>require("react/jsx-runtime"))},27669,(a,b,c)=>{b.exports=a.x("react",()=>require("react"))},58836,(a,b,c)=>{b.exports=a.x("react-ga-f4084a8af88695ae",()=>require("react-ga-f4084a8af88695ae"))},27342,a=>{"use strict";var b=a.i(8171),c=a.i(27669),d=a.i(58836);a.s(["default",0,function({Component:a,pageProps:e}){return(0,c.useEffect)(()=>{d.default.initialize("UA-83942647-1"),d.default.pageview(window.location.pathname+window.location.search)},[e]),(0,b.jsx)(a,{...e})}])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__8caf0d4b._.js.map
