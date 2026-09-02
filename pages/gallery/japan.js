@@ -8,13 +8,21 @@ export default function Gallery() {
         <div className={styles.container}>
             <Head>
                 <title>Japan Gallery - David Calhoun Photography</title>
-                <meta name="description" content="A photo gallery preserving some memories from visits to Japan." />
+                <meta name="description" content="Photo highlights from Japan." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <main className={styles.main}>
-                <Header isMainIndex={false} />
-                <h1 className={styles.title}>Japan Gallery</h1>
+                <div className="gradient-bg-red">
+                    <Header pageTitle='Japan Gallery' />
+                    <div className="layer base"></div>
+                    <div className="layer treatment"></div>
+                    <div className="layer glow"></div>
+                    <div className="layer vignette"></div>
+                    <div className="layer noise"></div>
+                    <div className="layer particles"></div>
+                    <div className="layer base"></div>
+                </div>
 
                 <section className={styles.photos}>
                     <Image
@@ -29,9 +37,7 @@ Through the language barrier the man explained it was intended to be a place to 
 good spot for photographers.  Though this means my photo is one of many with this exact framing, I have still really enjoyed it.
 &nbsp;\n
 &nbsp;\n
-*Hamarikyu Gardens, Tokyo, Japan.  April 2015.*
-
-*浜離宮 東京 2015年4月*`}
+*Hamarikyu Gardens, Tokyo (浜離宮 東京).  April 2015.*`}
                         width={2000}
                         height={1010}
                         genre="Travel Photography"
@@ -46,9 +52,7 @@ good spot for photographers.  Though this means my photo is one of many with thi
 the city, guiding residents and tourists to the magical display.
 &nbsp;\n
 &nbsp;\n
-*Kiyomizudera, Kyoto, Japan.  April 2016.*
-
-*清水寺 京都 2016年4月*`}
+*Kiyomizudera, Kyoto (清水寺 京都).  April 2016.*`}
                         width={2000}
                         height={1333}
                         genre="Travel Photography"
@@ -80,9 +84,7 @@ only one who remembers that moment, preserving the memory.
 > And cannot come again.
 &nbsp;\n
 &nbsp;\n
-*Kamogawa River, Kyoto, Japan. August 2011 during Tanabata (Star Festival)*
-
-*鴨川 京都 2011年8月 七夕*`}
+*Kamogawa River, Kyoto (鴨川 京都). August 2011 during Tanabata (Star Festival) (七夕)*`}
                         width={2000}
                         height={1333}
                         genre="Travel Photography"
@@ -98,9 +100,7 @@ This airport is like a bookend - the first and last part of many peoples' journe
 This fantastic view was a bit of a surprise for me after checking into the Star Gate Hotel.
 &nbsp;\n
 &nbsp;\n
-*Izumisano, Osaka, Japan.  March 2016.*
-
-*泉佐野市 大阪 2011年3月*`}
+*Izumisano, Osaka, Japan (泉佐野市 大阪).  March 2016.*`}
                         width={1333}
                         height={2000}
                         genre="Travel Photography"
@@ -116,9 +116,7 @@ illuminations such as this.  But if you're willing to visit very early in the mo
 filter in, it will help ensure that at least part of your visit will be more tranquil.
 &nbsp;\n
 &nbsp;\n
-*Arashiyama Bamboo Forest, Kyoto, December 2012*
-
-*嵐山 京都 2012年12月*`}
+*Arashiyama Bamboo Forest, Kyoto (嵐山 京都). December 2012*`}
                         width={1333}
                         height={2000}
                         genre="Travel Photography"
@@ -134,9 +132,7 @@ it started snowing!  They knocked on my room's door to wake me up and let me kno
 I took a few photos - before retreating back into my warm room.
 &nbsp;\n
 &nbsp;\n
-*Sakyo Ward, Kyoto, Japan.  February 2013.*
-
-*左京区 京都 2013年2月*`}
+*Sakyo Ward, Kyoto (左京区 京都).  February 2013.*`}
                         width={1333}
                         height={2000}
                         genre="Travel Photography"
@@ -154,9 +150,7 @@ For this particular parade I learned a lot of great tips from [the blog of Jeffr
 who is a Kyoto resident and happened to also work at Yahoo many years ago, like myself.  I'm pretty sure I spotted him
 in the crowd with a very large lens.
 
-*Aoi Matsuri at Kyoto Imperial Palace, Kyoto, Japan.  May 2013.*
-
-*京都 2013年5月*`}
+*Aoi Matsuri at Kyoto Imperial Palace, Kyoto (京都).  May 2013.*`}
                         width={2000}
                         height={1333}
                         genre="Travel Photography"
@@ -164,15 +158,13 @@ in the crowd with a very large lens.
                     />
                     <Image
                         path={'/japan/5D__2135-shirakawa-doorway-gifu-japan-may-2016'}
-                        name=""
-                        alt="."
-                        caption={`Gasshō-zukuri (合掌造) minka home (民家).  At this time of year the heat was still bearable,
+                        name="Traditional Japanese gasshō-zukuri minka home"
+                        alt="A view looking out of a traditional Japanese thatched dwelling.  In the view to the left is a tree with some more dwellings visible partly obscured beyond it.  In the view to the right is a half-view of another thatched dwelling."
+                        caption={`Traditional Japanese gasshō-zukuri (合掌造) minka home (民家).  At this time of year the heat was still bearable,
 but things were starting to warm up for sure.  I was pretty delighted to find the great symmetry and the asymmetry
 in this shot.  Just imagine waking up and opening up your front door to this scene!
 
-*Shirakawa village, Gifu Prefecture, Japan.  May 2016.*
-
-*白川村 岐阜県 2016年5月*`}
+*Shirakawa village, Gifu Prefecture (白川村 岐阜県).  May 2016.*`}
                         width={2000}
                         height={1333}
                         genre="Travel Photography"

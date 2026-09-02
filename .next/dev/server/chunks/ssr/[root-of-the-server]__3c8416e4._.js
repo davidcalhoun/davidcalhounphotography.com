@@ -73,6 +73,15 @@ class MyDocument extends __TURBOPACK__imported__module__$5b$project$5d2f$node_mo
                             fileName: "[project]/pages/_document.js",
                             lineNumber: 15,
                             columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("script", {
+                            type: "module",
+                            src: "https://static.cloudflareinsights.com/beacon.min.js",
+                            "data-cf-beacon": '{"token": "5d66f0cb9118424f98bedc9c93e2958e"}'
+                        }, void 0, false, {
+                            fileName: "[project]/pages/_document.js",
+                            lineNumber: 16,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {

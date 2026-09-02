@@ -2,6 +2,12 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
+  "/gallery/eastern-sierra": [
+    "static/chunks/pages/gallery/eastern-sierra.js"
+  ],
+  "/gallery/japan": [
+    "static/chunks/pages/gallery/japan.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],

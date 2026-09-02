@@ -1,5 +1,5 @@
-[00:00:00.384] Server  LOG     ✓ Ready in 257ms
-[00:00:03.206] Server  ERROR   Warning: HoverSlideshowAnimated: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.
+[00:00:00.698] Server  LOG     ✓ Ready in 463ms
+[00:00:00.984] Server  ERROR   Warning: HoverSlideshowAnimated: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.
     at HoverSlideshowAnimated (/Users/davidcalhoun/dev/davidcalhounphotography.com/node_modules/react-hover-slideshow/dist/react-hover-slideshow.cjs.js:498:5)
     at a
     at LinkComponent (/Users/davidcalhoun/dev/davidcalhounphotography.com/node_modules/next/src/client/link.tsx:300:13)
@@ -16,20 +16,56 @@
     at AppContainerWithIsomorphicFiberStructure (webpack://next/src/server/render.tsx:785:11)
     at div
     at Body (webpack://next/src/server/render.tsx:1254:19)
-[00:00:03.453] Browser ERROR   Warning: %s: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.%s HoverSlideshowAnimated 
-HoverSlideshowAnimated@http://localhost:3000/_next/static/chunks/node_modules_bdd35391._.js:3421:87
+[00:00:01.639] Browser ERROR   Warning: %s: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.%s HoverSlideshowAnimated 
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
 a
-LinkComponent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_881bc7f7._.js:4376:266
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
 li
 ul
 div
 main
 div
 Home
-CustomApp@http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:480:19
-PathnameContextProviderAdapter@http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5355:40
-PagesDevOverlayErrorBoundary@http://localhost:3000/_next/static/chunks/node_modules_next_dist_41ce5ee3._.js:1124:9
-PagesDevOverlayBridge@http://localhost:3000/_next/static/chunks/node_modules_next_dist_41ce5ee3._.js:1901:31
-Container@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1
-AppContainer@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:22
-Root@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3393:14
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+@http://localhost:3000/_next/static/chunks/node_modules_react-dom_8a8085df._.js:41:31
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+@http://localhost:3000/_next/static/chunks/node_modules_react-dom_8a8085df._.js:41:31
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+[00:00:03.578] Browser ERROR   Warning: %s: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.%s HoverSlideshowAnimated 
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+a
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+li
+ul
+div
+main
+div
+Home
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+@http://localhost:3000/_next/static/chunks/node_modules_react-dom_8a8085df._.js:41:31
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+@http://localhost:3000/_next/static/chunks/node_modules_react-dom_8a8085df._.js:41:31
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+[00:00:10.876] Server  LOG     ✓ Compiled in 8ms
+[00:01:49.943] Server  LOG     ✓ Compiled in 53ms
+[00:01:52.847] Browser ERROR   Warning: %s: Support for defaultProps will be removed from function components in a future major release. Use JavaScript default parameters instead.%s HoverSlideshowAnimated 
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+a
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+li
+ul
+div
+main
+div
+Home
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+@http://localhost:3000/_next/static/chunks/node_modules_react-dom_8a8085df._.js:41:31
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+@http://localhost:3000/_next/static/chunks/node_modules_react-dom_8a8085df._.js:41:31
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32
+instantiateModule@http://localhost:3000/_next/static/chunks/turbopack-pages__app_c9f89839._.js:877:32

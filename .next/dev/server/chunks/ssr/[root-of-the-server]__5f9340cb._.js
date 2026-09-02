@@ -4557,7 +4557,7 @@ class LRUCache {
         const size = (this.calculateSize == null ? void 0 : this.calculateSize.call(this, value)) ?? 1;
         if (size > this.maxSize) {
             console.warn('Single item size exceeds maxSize');
-            return;
+            return false;
         }
         const existing = this.cache.get(key);
         if (existing) {
@@ -4580,6 +4580,7 @@ class LRUCache {
             this.totalSize -= tail.size;
             this.onEvict == null ? void 0 : this.onEvict.call(this, tail.key, tail.data);
         }
+        return true;
     }
     /**
    * Checks if a key exists in the cache.
