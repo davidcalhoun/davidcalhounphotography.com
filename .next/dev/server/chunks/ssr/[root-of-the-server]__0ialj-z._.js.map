@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///Users/davidcalhoun/dev/davidcalhounphotography.com/pages/_document.js"],"sourcesContent":["import Document, { Html, Head, Main, NextScript } from 'next/document'\n\nclass MyDocument extends Document {\n  static async getInitialProps(ctx) {\n    const initialProps = await Document.getInitialProps(ctx)\n    return { ...initialProps }\n  }\n\n  render() {\n    return (\n      <Html lang=\"en\">\n        <Head/>\n        <body>\n          <Main />\n          <NextScript />\n          <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"5d66f0cb9118424f98bedc9c93e2958e\"}'></script>\n        </body>\n      </Html>\n    )\n  }\n}\n\nexport default MyDocument\n"],"names":["MyDocument","getInitialProps","ctx","initialProps","render","lang","type","src"],"mappings":";;;;;AAAA;;;AAEA,MAAMA,mBAAmB,oIAAQ;IAC/B,aAAaC,gBAAgBC,GAAG,EAAE;QAChC,MAAMC,eAAe,MAAM,oIAAQ,CAACF,eAAe,CAACC;QACpD,OAAO;YAAE,GAAGC,YAAY;QAAC;IAC3B;IAEAC,SAAS;QACP,qBACE,qKAAC,iIAAI;YAACC,MAAK;;8BACT,qKAAC,iIAAI;;;;;8BACL,qKAAC;;sCACC,qKAAC,iIAAI;;;;;sCACL,qKAAC,uIAAU;;;;;sCACX,qKAAC;4BAAOC,MAAK;4BAASC,KAAI;4BAAsD,kBAAe;;;;;;;;;;;;;;;;;;IAIvG;AACF;uCAEeP"}}]
+}

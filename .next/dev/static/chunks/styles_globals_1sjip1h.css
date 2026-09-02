@@ -1,0 +1,223 @@
+/* [project]/styles/globals.css [client] (css) */
+:root {
+  --footer-font-size: .8rem;
+  --title-font-size: 2rem;
+  --color-main: #dbdbdb;
+  --color-main-subdued: #929292;
+  --color-bg: #181818;
+  --vertical-spacer: 2rem;
+}
+
+html, body {
+  color: var(--color-main);
+  background: var(--color-bg);
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  padding: 0 .5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 576px) {
+  :root {
+    --footer-font-size: 1rem;
+    --title-font-size: 3rem;
+    --vertical-spacer: 4rem;
+  }
+}
+
+.gradient-bg {
+  isolation: isolate;
+  border-bottom: 1px solid #4e4e4e;
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-bg .base {
+  z-index: 0;
+  background: linear-gradient(45deg, #ebeced 0%, #989ca1 16%, #71767c 38%, #393b3e 55%, #1d1e1f 84%, #030303 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg .treatment {
+  z-index: 1;
+  filter: blur(40px);
+  opacity: .47;
+  background-image: radial-gradient(at 79% 20%, #dadbdd21, #0000 35%), radial-gradient(at 32% 64%, #697fa04d, #0000 25%);
+  position: absolute;
+  inset: -10% -14% 20%;
+  -webkit-mask-image: linear-gradient(#000 0 59%, #0000 100%);
+  mask-image: linear-gradient(#000 0 59%, #0000 100%);
+}
+
+.gradient-bg .glow {
+  z-index: 2;
+  background: radial-gradient(at 53% 4%, #ffffff3b, #0000 38%), radial-gradient(at 51% 36%, #697fa042, #0000 42%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg .vignette {
+  z-index: 4;
+  background: radial-gradient(circle, #0000 25%, #00000030 58%, #000000db 100%), linear-gradient(#0000 45%, #000000c7 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg .noise {
+  z-index: 5;
+  mix-blend-mode: soft-light;
+  opacity: .16;
+  background-image: url("data:image/svg+xml,...turbulence...");
+  background-size: 180px 180px;
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg .particles {
+  z-index: 3;
+  background: radial-gradient(circle at 78% 74%, #ffffff40 0, #0000 2px), radial-gradient(circle at 51% 12%, #ffffff3d 0, #0000 2px), radial-gradient(circle at 78% 41%, #ffffff57 0, #0000 1px), radial-gradient(circle at 14% 77%, #dadbdd4a 0, #0000 2px), radial-gradient(circle at 62% 47%, #ffffff61 0, #0000 2px), radial-gradient(circle at 50% 51%, #dadbdd4a 0, #0000 2px), radial-gradient(circle at 87% 14%, #ffffff4d 0, #0000 2px), radial-gradient(circle at 66% 60%, #dadbdd2b 0, #0000 3px), radial-gradient(circle at 85% 80%, #ffffff57 0, #0000 3px), radial-gradient(circle at 28% 17%, #dadbdd2b 0, #0000 2px), radial-gradient(circle at 87% 56%, #ffffff5e 0, #0000 1px), radial-gradient(circle at 17% 44%, #fff6 0, #0000 1px), radial-gradient(circle at 17% 13%, #ffffff59 0, #0000 3px), radial-gradient(circle at 20% 37%, #dadbdd38 0, #0000 3px), radial-gradient(circle at 82% 62%, #dadbdd52 0, #0000 2px), radial-gradient(circle at 80% 38%, #dadbdd3d 0, #0000 2px), radial-gradient(circle at 48% 32%, #dadbdd4a 0, #0000 3px), radial-gradient(circle at 70% 75%, #ffffff21 0, #0000 3px), radial-gradient(circle at 62% 82%, #ffffff40 0, #0000 1px), radial-gradient(circle at 91% 74%, #fff6 0, #0000 2px), radial-gradient(circle at 7% 32%, #dadbdd5e 0, #0000 1px), radial-gradient(circle at 35% 80%, #ffffff3d 0, #0000 3px), radial-gradient(circle at 22% 47%, #ffffff45 0, #0000 2px), radial-gradient(circle at 64% 73%, #dadbdd4d 0, #0000 3px), radial-gradient(circle at 30% 73%, #ffffff26 0, #0000 1px), radial-gradient(circle at 13% 66%, #ffffff26 0, #0000 1px), radial-gradient(circle at 16%, #ffffff40 0, #0000 1px), radial-gradient(circle at 76% 31%, #dadbdd2e 0, #0000 2px), radial-gradient(circle at 84% 57%, #ffffff36 0, #0000 1px);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg .halftone {
+  z-index: 6;
+  mix-blend-mode: overlay;
+  background-image: radial-gradient(circle at 25% 25%, #697fa014 1px, #0000 1px), radial-gradient(circle at 75% 75%, #697fa00f 1px, #0000 1px);
+  background-size: 12px 12px;
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-red {
+  isolation: isolate;
+  border-bottom: 1px solid #4e4e4e;
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-bg-red .base {
+  z-index: 0;
+  background: linear-gradient(45deg, #e9e5e4 0%, #c19684 16%, #aa5033 34%, #532e25 56%, #1e1614 81%, #050404 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-red .treatment {
+  z-index: 1;
+  background-image: conic-gradient(from 86deg at 50% 4%, transparent 0 8%, #e5d8d230 10% 17%, transparent 19% 31%, #dd582d54 33% 40%, transparent 42% 58%, #1e16146e 60% 67%, transparent 69% 100%);
+  filter: blur(22px);
+  opacity: .456;
+  position: absolute;
+  inset: 0;
+  -webkit-mask-image: linear-gradient(#000 0% 66%, #0000 100%);
+  mask-image: linear-gradient(#000 0% 66%, #0000 100%);
+}
+
+.gradient-bg-red .glow {
+  z-index: 2;
+  background: radial-gradient(at 47% 3%, #ffffff4a, #0000 38%), radial-gradient(at 53% 36%, #dd582d36, #0000 42%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-red .vignette {
+  z-index: 4;
+  background: radial-gradient(circle, #0000 25%, #00000029 58%, #000000e3 100%), linear-gradient(#0000 45%, #000000bd 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-red .noise {
+  z-index: 5;
+  mix-blend-mode: soft-light;
+  opacity: .17;
+  background-image: url("data:image/svg+xml,...turbulence...");
+  background-size: 180px 180px;
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-red .particles {
+  z-index: 3;
+  background: radial-gradient(circle at 15% 31%, #e5d8d229 0, #0000 2px), radial-gradient(circle at 66% 69%, #fff6 0, #0000 2px), radial-gradient(circle at 88% 61%, #fff6 0, #0000 1px), radial-gradient(circle at 63% 51%, #ffffff1a 0, #0000 3px), radial-gradient(circle at 13% 72%, #ffffff4f 0, #0000 1px), radial-gradient(circle at 54% 47%, #e5d8d21f 0, #0000 3px), radial-gradient(circle at 18% 32%, #ffffff59 0, #0000 2px), radial-gradient(circle at 56% 46%, #ffffff36 0, #0000 3px), radial-gradient(circle at 45% 73%, #ffffff38 0, #0000 2px), radial-gradient(circle at 84% 76%, #e5d8d25c 0, #0000 3px), radial-gradient(circle at 80% 53%, #e5d8d229 0, #0000 1px), radial-gradient(circle at 26% 55%, #e5d8d224 0, #0000 2px), radial-gradient(circle at 12% 64%, #e5d8d21c 0, #0000 1px), radial-gradient(circle at 83% 79%, #ffffff47 0, #0000 2px), radial-gradient(circle at 39% 41%, #e5d8d242 0, #0000 1px), radial-gradient(circle at 10% 64%, #ffffff36 0, #0000 1px), radial-gradient(circle at 70% 72%, #ffffff52 0, #0000 3px), radial-gradient(circle at 38% 42%, #e5d8d24f 0, #0000 1px), radial-gradient(circle at 21% 29%, #e5d8d221 0, #0000 3px), radial-gradient(circle at 30% 72%, #e5d8d25e 0, #0000 1px), radial-gradient(circle at 91% 69%, #e5d8d257 0, #0000 2px), radial-gradient(circle at 25% 18%, #e5d8d257 0, #0000 3px), radial-gradient(circle at 17% 88%, #e5d8d238 0, #0000 3px), radial-gradient(circle at 9% 26%, #e5d8d226 0, #0000 3px);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-blue {
+  isolation: isolate;
+  border-bottom: 1px solid #4e4e4e;
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-bg-blue .base {
+  z-index: 0;
+  background: linear-gradient(45deg, #e8e9eb 0%, #a5abc5 19%, #4e61a0 30%, #2d354b 58%, #1e2026 77%, #040404 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-blue .treatment {
+  z-index: 1;
+  filter: blur(24px);
+  opacity: .408;
+  background-image: repeating-linear-gradient(112deg, #0000 0 10%, #d5d7e14d 12%, #4462c563 16%, #0000 21%), repeating-linear-gradient(154deg, #0000 0 18%, #1e202687 20%, #0000 25%);
+  position: absolute;
+  inset: 0;
+  -webkit-mask-image: linear-gradient(130deg, #0000 0%, #000 18% 82%, #0000 100%);
+  mask-image: linear-gradient(130deg, #0000 0%, #000 18% 82%, #0000 100%);
+}
+
+.gradient-bg-blue .glow {
+  z-index: 2;
+  background: radial-gradient(at 48% 7%, #ffffff42, #0000 38%), radial-gradient(at 43% 31%, #4462c53d, #0000 42%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-blue .vignette {
+  z-index: 4;
+  background: radial-gradient(circle, #0000 25%, #0003 58%, #000000d1 100%), linear-gradient(#0000 45%, #000000bd 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-blue .noise {
+  z-index: 5;
+  mix-blend-mode: soft-light;
+  opacity: .18;
+  background-image: url("data:image/svg+xml,...turbulence...");
+  background-size: 180px 180px;
+  position: absolute;
+  inset: 0;
+}
+
+.gradient-bg-blue .particles {
+  z-index: 3;
+  background: radial-gradient(circle at 66% 80%, #ffffff52 0, #0000 2px), radial-gradient(circle at 5% 14%, #d5d7e14a 0, #0000 2px), radial-gradient(circle at 42% 21%, #d5d7e12b 0, #0000 2px), radial-gradient(circle at 58% 74%, #d5d7e145 0, #0000 1px), radial-gradient(circle at 87% 13%, #d5d7e154 0, #0000 1px), radial-gradient(circle at 65% 19%, #ffffff30 0, #0000 1px), radial-gradient(circle at 91% 83%, #d5d7e147 0, #0000 1px), radial-gradient(circle at 19% 77%, #d5d7e13b 0, #0000 2px), radial-gradient(circle at 47% 23%, #d5d7e161 0, #0000 2px), radial-gradient(circle at 62% 69%, #d5d7e159 0, #0000 2px), radial-gradient(circle at 38% 48%, #ffffff57 0, #0000 3px), radial-gradient(circle at 66% 19%, #ffffff3d 0, #0000 3px), radial-gradient(circle at 9% 23%, #d5d7e154 0, #0000 3px), radial-gradient(circle at 49% 83%, #ffffff24 0, #0000 2px), radial-gradient(circle at 24% 49%, #d5d7e138 0, #0000 2px), radial-gradient(circle at 40% 49%, #ffffff5e 0, #0000 3px), radial-gradient(circle at 55% 61%, #ffffff21 0, #0000 2px), radial-gradient(circle at 42% 86%, #d5d7e133 0, #0000 3px), radial-gradient(circle at 81% 85%, #ffffff61 0, #0000 3px), radial-gradient(circle at 27% 23%, #ffffff63 0, #0000 2px);
+  position: absolute;
+  inset: 0;
+}
+
+/*# sourceMappingURL=styles_globals_1sjip1h.css.map*/
