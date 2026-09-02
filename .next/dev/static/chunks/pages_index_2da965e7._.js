@@ -10,7 +10,7 @@
   "static/chunks/node_modules_react-dom_cjs_react-dom_development_2b5e0eb3.js",
   "static/chunks/node_modules_react-dom_8a8085df._.js",
   "static/chunks/node_modules_micromark-core-commonmark_dev_lib_e19c1c6a._.js",
-  "static/chunks/node_modules_bdd35391._.js",
+  "static/chunks/node_modules_b13217f4._.js",
   "static/chunks/[root-of-the-server]__ee8c9b9b._.js",
   "static/chunks/styles_fbce0294._.css"
 ],
