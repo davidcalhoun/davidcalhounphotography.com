@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Gallery.module.css"],"sourcesContent":[".container {\n}\n\n.title {\n    text-align: center;\n}\n\n"],"names":[],"mappings":"AAGA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Gallery.module.css"],"sourcesContent":[".container {\n}\n\n.title {\n    text-align: center;\n}\n\n.photos {\n    margin-top: 5rem;\n}"],"names":[],"mappings":"AAGA;;;;AAIA"}}]
 }

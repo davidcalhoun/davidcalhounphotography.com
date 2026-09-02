@@ -500,8 +500,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Footer$2e$module$2
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "mailto:davidcalhounphotography+web@gmail.com",
-                        children: "davidcalhounphotography+web@gmail.com"
+                        href: "mailto:davidcalhounphotography@gmail.com",
+                        children: "davidcalhounphotography@gmail.com"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer/index.js",
                         lineNumber: 10,
@@ -549,7 +549,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2
 ;
 ;
 ;
-const Header = ({ isMainIndex = true })=>{
+const Header = ({ isMainIndex = false, pageTitle = '' })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hgroup", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].container,
         children: [
@@ -575,20 +575,60 @@ const Header = ({ isMainIndex = true })=>{
                 lineNumber: 8,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
-            isMainIndex ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].subtitle,
-                children: "Landscape and travel photography"
-            }, void 0, false, {
+            isMainIndex ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].subtitle,
+                        children: "Landscape and Travel Photography"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Header/index.js",
+                        lineNumber: 13,
+                        columnNumber: 33
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].subtitle,
+                        children: "Based in Raleigh, NC"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Header/index.js",
+                        lineNumber: 13,
+                        columnNumber: 102
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].subtitle,
+                        children: "davidcalhounphotography@gmail.com"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Header/index.js",
+                        lineNumber: 13,
+                        columnNumber: 159
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
                 fileName: "[project]/components/Header/index.js",
                 lineNumber: 13,
                 columnNumber: 28
-            }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].subtitle,
-                children: "Landscape and travel photography"
-            }, void 0, false, {
+            }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].subtitle,
+                        children: "Landscape and Travel Photography"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Header/index.js",
+                        lineNumber: 13,
+                        columnNumber: 243
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Header$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].subtitle,
+                        children: pageTitle
+                    }, void 0, false, {
+                        fileName: "[project]/components/Header/index.js",
+                        lineNumber: 13,
+                        columnNumber: 312
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
                 fileName: "[project]/components/Header/index.js",
                 lineNumber: 13,
-                columnNumber: 100
+                columnNumber: 238
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
@@ -960,6 +1000,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Image$2f$index
 "[project]/styles/Gallery.module.css [client] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
+  "photos": "Gallery-module__rkF09a__photos",
   "title": "Gallery-module__rkF09a__title",
 });
 }),
@@ -996,7 +1037,7 @@ function Gallery() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         name: "description",
-                        content: "A photo gallery preserving some memories from visits to Japan."
+                        content: "Photo highlights from Japan."
                     }, void 0, false, {
                         fileName: "[project]/pages/gallery/japan.js",
                         lineNumber: 11,
@@ -1019,19 +1060,69 @@ function Gallery() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Gallery$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].main,
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Header$3e$__["Header"], {
-                        isMainIndex: false
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "gradient-bg-red",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Header$3e$__["Header"], {
+                                pageTitle: "Japan Gallery"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 17,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "layer base"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 18,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "layer treatment"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 19,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "layer glow"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 20,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "layer vignette"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 21,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "layer noise"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 22,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "layer particles"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 23,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "layer base"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/gallery/japan.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/pages/gallery/japan.js",
                         lineNumber: 16,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$Gallery$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].title,
-                        children: "Japan Gallery"
-                    }, void 0, false, {
-                        fileName: "[project]/pages/gallery/japan.js",
-                        lineNumber: 17,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1049,16 +1140,14 @@ Through the language barrier the man explained it was intended to be a place to 
 good spot for photographers.  Though this means my photo is one of many with this exact framing, I have still really enjoyed it.
 &nbsp;\n
 &nbsp;\n
-*Hamarikyu Gardens, Tokyo, Japan.  April 2015.*
-
-*浜離宮 東京 2015年4月*`,
+*Hamarikyu Gardens, Tokyo (浜離宮 東京).  April 2015.*`,
                                 width: 2000,
                                 height: 1010,
                                 genre: "Travel Photography",
                                 keywords: "tokyo, japan, spring, hamarikyu gardens, cherry blossoms, plum blossoms, 浜離宮, 東京, 日本"
                             }, void 0, false, {
                                 fileName: "[project]/pages/gallery/japan.js",
-                                lineNumber: 20,
+                                lineNumber: 28,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Image$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
@@ -1070,16 +1159,14 @@ good spot for photographers.  Though this means my photo is one of many with thi
 the city, guiding residents and tourists to the magical display.
 &nbsp;\n
 &nbsp;\n
-*Kiyomizudera, Kyoto, Japan.  April 2016.*
-
-*清水寺 京都 2016年4月*`,
+*Kiyomizudera, Kyoto (清水寺 京都).  April 2016.*`,
                                 width: 2000,
                                 height: 1333,
                                 genre: "Travel Photography",
                                 keywords: "japan, kyoto, temple, night photography, 清水寺, 京都, 日本"
                             }, void 0, false, {
                                 fileName: "[project]/pages/gallery/japan.js",
-                                lineNumber: 40,
+                                lineNumber: 46,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Image$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
@@ -1108,16 +1195,14 @@ only one who remembers that moment, preserving the memory.
 > And cannot come again.
 &nbsp;\n
 &nbsp;\n
-*Kamogawa River, Kyoto, Japan. August 2011 during Tanabata (Star Festival)*
-
-*鴨川 京都 2011年8月 七夕*`,
+*Kamogawa River, Kyoto (鴨川 京都). August 2011 during Tanabata (Star Festival) (七夕)*`,
                                 width: 2000,
                                 height: 1333,
                                 genre: "Travel Photography",
                                 keywords: "japan, kyoto, night photography, 鴨川, 京都, 七夕, 日本, tanabata, star festival, summer"
                             }, void 0, false, {
                                 fileName: "[project]/pages/gallery/japan.js",
-                                lineNumber: 57,
+                                lineNumber: 61,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Image$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
@@ -1130,16 +1215,14 @@ This airport is like a bookend - the first and last part of many peoples' journe
 This fantastic view was a bit of a surprise for me after checking into the Star Gate Hotel.
 &nbsp;\n
 &nbsp;\n
-*Izumisano, Osaka, Japan.  March 2016.*
-
-*泉佐野市 大阪 2011年3月*`,
+*Izumisano, Osaka, Japan (泉佐野市 大阪).  March 2016.*`,
                                 width: 1333,
                                 height: 2000,
                                 genre: "Travel Photography",
                                 keywords: "osaka, japan, airport, night, 大阪, 泉佐野市, 日本"
                             }, void 0, false, {
                                 fileName: "[project]/pages/gallery/japan.js",
-                                lineNumber: 91,
+                                lineNumber: 93,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Image$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
@@ -1152,9 +1235,7 @@ illuminations such as this.  But if you're willing to visit very early in the mo
 filter in, it will help ensure that at least part of your visit will be more tranquil.
 &nbsp;\n
 &nbsp;\n
-*Arashiyama Bamboo Forest, Kyoto, December 2012*
-
-*嵐山 京都 2012年12月*`,
+*Arashiyama Bamboo Forest, Kyoto (嵐山 京都). December 2012*`,
                                 width: 1333,
                                 height: 2000,
                                 genre: "Travel Photography",
@@ -1174,16 +1255,14 @@ it started snowing!  They knocked on my room's door to wake me up and let me kno
 I took a few photos - before retreating back into my warm room.
 &nbsp;\n
 &nbsp;\n
-*Sakyo Ward, Kyoto, Japan.  February 2013.*
-
-*左京区 京都 2013年2月*`,
+*Sakyo Ward, Kyoto (左京区 京都).  February 2013.*`,
                                 width: 1333,
                                 height: 2000,
                                 genre: "Travel Photography",
                                 keywords: "snow, bike, kyoto, sakyo, 左京区, 京都, japan, 日本, winter, night"
                             }, void 0, false, {
                                 fileName: "[project]/pages/gallery/japan.js",
-                                lineNumber: 127,
+                                lineNumber: 125,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Image$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
@@ -1198,42 +1277,38 @@ For this particular parade I learned a lot of great tips from [the blog of Jeffr
 who is a Kyoto resident and happened to also work at Yahoo many years ago, like myself.  I'm pretty sure I spotted him
 in the crowd with a very large lens.
 
-*Aoi Matsuri at Kyoto Imperial Palace, Kyoto, Japan.  May 2013.*
-
-*京都 2013年5月*`,
+*Aoi Matsuri at Kyoto Imperial Palace, Kyoto (京都).  May 2013.*`,
                                 width: 2000,
                                 height: 1333,
                                 genre: "Travel Photography",
                                 keywords: "葵祭, 京都, aoi matsuri, hollyhock festival, kyoto, japan, 日本, festival, tradition, japanese clothing"
                             }, void 0, false, {
                                 fileName: "[project]/pages/gallery/japan.js",
-                                lineNumber: 145,
+                                lineNumber: 141,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Image$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
                                 path: '/japan/5D__2135-shirakawa-doorway-gifu-japan-may-2016',
-                                name: "",
-                                alt: ".",
-                                caption: `Gasshō-zukuri (合掌造) minka home (民家).  At this time of year the heat was still bearable,
+                                name: "Traditional Japanese gasshō-zukuri minka home",
+                                alt: "A view looking out of a traditional Japanese thatched dwelling.  In the view to the left is a tree with some more dwellings visible partly obscured beyond it.  In the view to the right is a half-view of another thatched dwelling.",
+                                caption: `Traditional Japanese gasshō-zukuri (合掌造) minka home (民家).  At this time of year the heat was still bearable,
 but things were starting to warm up for sure.  I was pretty delighted to find the great symmetry and the asymmetry
 in this shot.  Just imagine waking up and opening up your front door to this scene!
 
-*Shirakawa village, Gifu Prefecture, Japan.  May 2016.*
-
-*白川村 岐阜県 2016年5月*`,
+*Shirakawa village, Gifu Prefecture (白川村 岐阜県).  May 2016.*`,
                                 width: 2000,
                                 height: 1333,
                                 genre: "Travel Photography",
                                 keywords: "合掌造, 民家, 白川村, 岐阜県, gasshō-zukuri, minka, japan, Shirakawa village, Gifu, 日本"
                             }, void 0, false, {
                                 fileName: "[project]/pages/gallery/japan.js",
-                                lineNumber: 165,
+                                lineNumber: 159,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/gallery/japan.js",
-                        lineNumber: 19,
+                        lineNumber: 27,
                         columnNumber: 17
                     }, this)
                 ]
@@ -1244,7 +1319,7 @@ in this shot.  Just imagine waking up and opening up your front door to this sce
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Footer$3e$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/pages/gallery/japan.js",
-                lineNumber: 184,
+                lineNumber: 176,
                 columnNumber: 13
             }, this)
         ]

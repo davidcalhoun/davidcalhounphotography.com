@@ -13,8 +13,16 @@ export default function Gallery() {
             </Head>
 
             <main className={styles.main}>
-                <Header isMainIndex={false} />
-                <h1 className={styles.title}>Eastern Sierra Gallery</h1>
+                <div className="gradient-bg-blue">
+                    <Header pageTitle='Eastern Sierra Gallery' />
+                    <div className="layer base"></div>
+                    <div className="layer treatment"></div>
+                    <div className="layer glow"></div>
+                    <div className="layer vignette"></div>
+                    <div className="layer noise"></div>
+                    <div className="layer particles"></div>
+                    <div className="layer base"></div>
+                </div>
 
                 <section className={styles.photos}>
                     <Image
@@ -36,10 +44,10 @@ export default function Gallery() {
                         path={'/eastern-sierra-california/2V9A0755-manzanar-soul-consoling-tower-慰霊塔-cemetery-mount-williamson-eastern-sierra-california'}
                         name="Manzanar Morning"
                         alt="Vibrant sunrise view of the white monument (the Kanji characters literally mean soul consoling tower, 慰霊塔) at Manzanar Cemetery, with Mount Williamson and the Eastern Sierra seen in the background being touched by the first soft pink sunlight of the new day."
-                        caption={`The soul-consoling tower (慰霊塔) at Manzanar cemetery is a quiet remembrance standing out from the desert floor..  Mount Williamson can be seen centered in the background, amongst the mountains of the Eastern Sierra being touched by the first soft pink light of the new day..
+                        caption={`The soul-consoling tower (慰霊塔) at Manzanar cemetery is a quiet remembrance standing out from the desert floor.  Mount Williamson can be seen centered in the background, amongst the mountains of the Eastern Sierra being touched by the first soft pink light of the new day.
 &nbsp;\n
 &nbsp;\n
-*Manazar, California, USA.  December 2021.*`}
+*Manzanar, California, USA.  December 2021.*`}
                         width={2000}
                         height={1334}
                         genre="Travel Photography"
@@ -52,7 +60,7 @@ export default function Gallery() {
                         caption={`The first soft pink light of the day touching Goodale Mountain in the distance, seen from Manzanar.
 &nbsp;\n
 &nbsp;\n
-*Manazar Cemetery, California, USA.  December 2021.*`}
+*Manzanar Cemetery, California, USA.  December 2021.*`}
                         width={2000}
                         height={1334}
                         genre="Travel Photography"

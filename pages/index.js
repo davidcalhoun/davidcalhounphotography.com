@@ -28,14 +28,23 @@ export default function Home() {
         <div className={styles.container}>
             <Head>
                 <title>David Calhoun - Landscape and Travel Photography</title>
-                <meta name="description" content="Portfolio of landscape and travel photography." />
+                <meta name="description" content="Landscape and travel photography portfolio." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <Header />
+                <div className="gradient-bg">
+                    <Header isMainIndex />
+                    <div className="layer base"></div>
+                    <div className="layer treatment"></div>
+                    <div className="layer glow"></div>
+                    <div className="layer vignette"></div>
+                    <div className="layer noise"></div>
+                    <div className="layer particles"></div>
+                    <div className="layer base"></div>
+                </div>
 
                 <div className={styles.galleries}>
-                    <h2>Galleries</h2>
+                    <h2>Photo Galleries</h2>
                     <ul className={styles.galleriesThumbs}>
                         <li>
                             <Link

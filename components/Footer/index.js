@@ -7,7 +7,7 @@ const Footer = () => {
             <span>&copy;davidcalhounphotography.com</span>
             <span>
                 <span>Contact: </span>
-                <a href="mailto:davidcalhounphotography+web@gmail.com">davidcalhounphotography+web@gmail.com</a>
+                <a href="mailto:davidcalhounphotography@gmail.com">davidcalhounphotography@gmail.com</a>
             </span>
         </footer>
     );
